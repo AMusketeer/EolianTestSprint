@@ -18,6 +18,5 @@ gasStationTable = pd.DataFrame(gasStationData['fuel_stations'])
 # Read Pinellas county flood data from FEMA
 sf = shapefile.Reader("FEMA_Pinellas_Data/S_FLD_HAZ_AR.shp")
 
-
 # Leaflet
 m = folium.Map(location=[45.5236, -122.6750])
